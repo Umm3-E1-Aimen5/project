@@ -1,0 +1,46 @@
+/* Home */
+#home{
+  background-image: url('../public/assets/pic3.jpeg');
+  background-repeat: no-repeat;
+  background-size:1500px ;
+  /* background: rgb(0, 101, 219);  */
+  /* background: linear-gradient(90deg, rgb(0, 101, 219) 50%, rgba(0, 212, 255,1) 100% );  */
+  min-height: 500px; 
+  
+}
+/* Card */
+.card{
+      transition: all 0.5s ease;
+}
+.card:hover{
+      cursor: pointer;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+/* Form */
+.form{
+  background: rgb(0, 101, 219);
+  background: linear-gradient(90deg, rgb(0, 101, 219) 40%, rgba(0, 212, 255,1) 100% );
+ 
+}
+/* Footer */
+.footer{
+  
+  background: rgb(162, 52, 52);
+  background: linear-gradient(90deg, rgb(179, 219, 0) 40%, rgba(0, 212, 255,1) 100% );
+ 
+}
+/* Navbar  */
+.navbar{
+  background: rgb(162, 52, 52);
+  background: linear-gradient(90deg, rgb(179, 219, 0) 40%, rgba(0, 212, 255,1) 100% );
+  min-height: 10vh;
+}
+
+/* About  */
+.about{
+  background-image: url('../public/assets/pic5.jpeg');
+  /* background: rgb(235, 129, 129);  */
+  /* background: linear-gradient(90deg, rgb(0, 219, 128) 40%, rgba(0, 212, 255,1) 100% );  */
+  background-size:1500px ;
+  min-height: 550px; 
+}
